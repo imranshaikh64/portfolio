@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --cyan:#22c2c2;
+    --yellow:#f9ca24;
 }
 
 *{
@@ -17,7 +17,7 @@
 }
 
 *::selection{
-    background: var(--cyan);
+    background: var(--yellow);
     color: #333;
 }
 
@@ -32,7 +32,7 @@ html::-webkit-scrollbar-track{
     background: #222;
 }
 html::-webkit-scrollbar-thumb{
-    background:var(--cyan);
+    background:var(--yellow);
 }
 body{
     background: #111;
@@ -59,7 +59,7 @@ section{
     font-size: 1.8rem;
 }
 .btn:hover{
-    background: var(--cyan);
+    background: var(--yellow);
 }
 .heading{
     text-align: center;
@@ -70,7 +70,7 @@ section{
     color: #fff;
 }
 .heading span{
-    color: var(--cyan);
+    color: var(--yellow);
 }
 header{
     position: fixed;
@@ -92,7 +92,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .7rem solid var(--cyan);
+    border: .7rem solid var(--yellow);
 
 }
 header .user .name{
@@ -120,7 +120,7 @@ header .navbar ul li a{
     border-radius: 5rem;
 }
 header .navbar ul li a:hover{
-    background: var(--cyan);
+    background: var(--yellow);
 }
 #menu{
     position: fixed;
@@ -150,7 +150,7 @@ header .navbar ul li a:hover{
     color: #fff;
 }
 .home h1 span{
-    color: var(--cyan);
+    color: var(--yellow);
 }
 .home p{
     font-size: 2rem;
@@ -172,7 +172,7 @@ header .navbar ul li a:hover{
 }
 .about .row .info h3{
     font-size: 2rem;
-    color: var(--cyan);
+    color: var(--yellow);
     padding: 1rem 0;
     font-weight: normal;
 }
@@ -195,7 +195,7 @@ header .navbar ul li a:hover{
 }
 .about .row .counter .box span{
     font-size: 4rem;
-    color: var(--cyan);
+    color: var(--yellow);
 }
 .about .row .counter .box h3{
     font-size: 2rem;
@@ -245,7 +245,7 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color: #fff;
-    background: var(--cyan);
+    background: var(--yellow);
 }
 .portfolio .box-container{
     display: flex;
@@ -318,7 +318,7 @@ header .navbar ul li a:hover{
 }
 .contact .row .content .info h3 i{
     padding-right: 1rem;
-    color: var(--cyan);
+    color: var(--yellow);
 }
 
 .top{
